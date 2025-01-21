@@ -117,6 +117,7 @@ p {
 .title {
   background-color: #2e2f42;
   height: 600px;
+  justify-items: center;
 }
 
 .titel-box {
@@ -126,10 +127,6 @@ p {
   align-items: center;
 }
 
-.title {
-  justify-items: center;
-}
-
 .page-title {
   font-weight: 700;
   font-size: 56px;
@@ -137,9 +134,7 @@ p {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  /*box-sizing: content-box;*/
   max-width: 496px;
-  /*margin-top: 188px;*/
 }
 
 .page-button {
@@ -154,13 +149,13 @@ p {
 }
 
 .page-button {
-  box-sizing: content-box;
+  box-sizing: border-box;
   border-radius: 4px;
   padding: 16px 32px;
-  max-width: 169px;
+  min-width: 169px;
+  height: 56px;
   margin-top: 48px;
   border: 0;
-  /*margin-top: 48px;*/
 }
 
 .list-container {
