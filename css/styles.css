@@ -268,10 +268,13 @@ p {
 
 /*--  section portfolio  --*/
 
-.portfolio-container {
-  height: 1000px;
+.portfolio {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+.portfolio-container {
+  height: 1000px;
 }
 
 .portfolio-block {
@@ -307,9 +310,6 @@ p {
 
 .page-footer {
   background-color: #2e2f42;
-}
-
-.footer-container {
   padding: 100px 0;
 }
 
