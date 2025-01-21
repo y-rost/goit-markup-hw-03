@@ -158,10 +158,6 @@ p {
   padding: 120px 0;
 }
 
-.list-container {
-  display: flex;
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -174,11 +170,21 @@ p {
   border: 0;
 }
 
-.list-item {
-  box-sizing: border-box;
+.list-container {
+  display: flex;
 }
 
-.list-board,
+.list-board {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.list-item {
+  box-sizing: border-box;
+  flex-basis: calc((100% - 72px) / 4);
+}
+
 .team-list {
   display: flex;
   justify-content: space-between;
@@ -273,10 +279,11 @@ p {
   padding-bottom: 72px;
 }
 
-.footer-container {
+.footer {
   display: flex;
   height: 312px;
   flex-direction: column;
+  padding: 100px 0;
 }
 
 .footer-text {
@@ -295,7 +302,7 @@ p {
 }
 
 .footer-logo {
-  margin-top: 100px;
+  display: inline-block;
   margin-bottom: 16px;
 }
 
