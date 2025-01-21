@@ -9,6 +9,7 @@ a {
 }
 
 .container,
+.title-container,
 .list-container,
 .team-container,
 .portfolio-container {
@@ -118,10 +119,15 @@ p {
   height: 600px;
 }
 
-.title-container {
-  display: flex;
+.titel-box {
+  display: inline-flex;
   flex-direction: column;
+  padding: 188px 0;
   align-items: center;
+}
+
+.title-container {
+  justify-items: center;
 }
 
 .page-title {
@@ -131,9 +137,9 @@ p {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  box-sizing: content-box;
-  width: 496px;
-  margin-top: 188px;
+  /*box-sizing: content-box;*/
+  max-width: 496px;
+  /*margin-top: 188px;*/
 }
 
 .page-button {
@@ -145,13 +151,16 @@ p {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: #4d5ae5;
   cursor: pointer;
-  box-sizing: border-box;
+}
+
+.page-button {
+  box-sizing: content-box;
   border-radius: 4px;
   padding: 16px 32px;
-  /*width: 169px;
-  height: 56px;*/
-  border: 0;
+  max-width: 169px;
   margin-top: 48px;
+  border: 0;
+  /*margin-top: 48px;*/
 }
 
 .list-container {
