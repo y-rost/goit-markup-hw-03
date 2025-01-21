@@ -8,11 +8,7 @@ a {
   text-decoration: none;
 }
 
-.container,
-.title-container,
-.list-container,
-.team-container,
-.portfolio-container {
+.container {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
@@ -158,10 +154,12 @@ p {
   border: 0;
 }
 
+.list {
+  padding: 120px 0;
+}
+
 .list-container {
   display: flex;
-  margin-top: 120px;
-  padding-bottom: 120px;
 }
 
 .list-block {
