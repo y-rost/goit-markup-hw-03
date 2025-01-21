@@ -208,15 +208,19 @@ p {
 
 .team-list {
   display: flex;
-  justify-content: space-between;
   gap: 24px;
 }
 
 .team-item {
-  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
   flex-basis: calc((100% - 72px) / 4);
-  width: 264px;
-  height: 380px;
+  border-radius: 0 0 4px 4px;
+}
+
+.team-position {
+  text-align: center;
+  padding: 32 px 0;
 }
 
 .page-button:hover,
