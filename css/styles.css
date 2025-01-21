@@ -218,6 +218,10 @@ p {
   border-radius: 0 0 4px 4px;
 }
 
+.team-img {
+  padding-bottom: 32px;
+}
+
 .team-position {
   text-align: center;
   padding: 32 px 0;
