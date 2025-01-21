@@ -279,7 +279,11 @@ p {
   padding-bottom: 72px;
 }
 
-.footer {
+.page-footer {
+  background-color: #2e2f42;
+}
+
+.footer-container {
   display: flex;
   height: 312px;
   flex-direction: column;
@@ -297,11 +301,7 @@ p {
   height: 72px;
 }
 
-.page-footer {
-  background-color: #2e2f42;
-}
-
-.footer-logo {
+.logo {
   display: inline-block;
   margin-bottom: 16px;
 }
