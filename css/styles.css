@@ -325,7 +325,6 @@ p {
 
 .logo {
   display: inline-block;
-  margin-bottom: 16px;
 }
 
 .footer-logo .logo-part {
@@ -335,4 +334,8 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
+}
+
+.footer-logo {
+  margin-bottom: 16px;
 }
